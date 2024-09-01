@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Route, Routes } from 'react-router-dom';
-import productsData from './data';
+import {productsData}  from '../../data/data';
 import AddProduct from './AddProducts';
 import './ProductManagement.css';
 import Sidebar from '../Sidebar';
@@ -102,6 +102,7 @@ function Products() {
             <th>Category</th>
             <th>Expiry Date</th>
             <th>Price</th>
+            <th>Availability</th>
             <th>Quantity</th>
             <th>Warehouse</th>
             <th>Actions</th>
@@ -115,6 +116,15 @@ function Products() {
               <td>{product.category}</td>
               <td>{product.expiryDate}</td>
               <td>&#x20b9;{product.price.toFixed(2)}</td>
+            
+              
+              <td>
+                {product.quantity === 0 ? (
+                  <span className="status out-of-stock">Out of Stock</span>
+                ) : (
+                  <span className="status available">Available</span>
+                )}
+              </td>
               <td>{product.quantity}</td>
               <td>{product.warehouse}</td>
               <td>
@@ -122,19 +132,19 @@ function Products() {
                   className="action-button edit-button"
                   onClick={() => handleEdit(product)}
                 >
-                  Edit
+                  <i class="fa-solid fa-pen"></i>
                 </button>
                 <button
                   className="action-button delete-button"
                   onClick={() => handleDelete(product.id)}
                 >
-                  Delete
+                 <i class="fa-solid fa-trash"></i>
                 </button>
                 <button
                   className="action-button show-button"
                   onClick={() => handleShow(product)}
                 >
-                  Show
+                 <i class="fa-solid fa-eye"></i>
                 </button>
               </td>
             </tr>

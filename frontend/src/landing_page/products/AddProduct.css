@@ -5,6 +5,8 @@
   align-items: center;
   min-height: 100vh;
   background-color: #f4f4f9;
+  font-family: "Poppins";
+
 }
 
 /* Form styling */
@@ -16,12 +18,13 @@
   width: 100%;
   max-width: 500px;
   animation: fadeIn 0.5s ease-in-out;
+  margin-top: 10px;
 }
 
 .add-product-form h2 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #333;
+  color: #3f42ff;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }

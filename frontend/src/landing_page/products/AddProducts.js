@@ -14,6 +14,8 @@ function AddProduct() {
     description: ''
   });
 
+  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setProduct((prevProduct) => ({
