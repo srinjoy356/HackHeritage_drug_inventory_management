@@ -2,7 +2,6 @@ import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import autoTable from 'jspdf-autotable';
 import QRCode from 'qrcode';
-// Your existing imports
 import React, { useState } from 'react';
 import { productsData } from '../../data/data'; // Import products from data.js
 import { ordersData } from '../../data/data'; // Import orders from orders_data.js
@@ -14,6 +13,7 @@ const AddOrder = () => {
     customerName: '',
     customerAddress: '',
     customerPhoneNumber: '',
+    dateTime: new Date().toISOString().slice(0, 16), // Default to current date and time
     products: [{ product: '', quantity: 1, rate: 0, totalPrice: 0 }],
   });
 
@@ -77,11 +77,11 @@ const AddOrder = () => {
       customerName: '',
       customerAddress: '',
       customerPhoneNumber: '',
+      dateTime: new Date().toISOString().slice(0, 16),
       products: [{ product: '', quantity: 1, rate: 0, totalPrice: 0 }],
     });
   };
 
-  
   const handlePrint = async () => {
     const doc = new jsPDF();
 
@@ -93,6 +93,9 @@ const AddOrder = () => {
     doc.text(`Address: ${order.customerAddress}`, 20, 40);
     doc.text(`Phone Number: ${order.customerPhoneNumber}`, 20, 50);
 
+    // Add Date and Time
+    doc.text(`Date and Time: ${new Date(order.dateTime).toLocaleString()}`, 20, 60);
+
     // Generate QR Code
     doc.setFontSize(16);
     doc.text("Scan your QR", 140, 20);
@@ -103,27 +106,25 @@ const AddOrder = () => {
     } catch (err) {
       console.error('Error generating QR code:', err);
     }
+
     const overallTotalPrice = calculateOverallTotal();
+
     // Add Product Details
-    doc.text("Ordered Products", 20, 65);
+    doc.text("Ordered Products", 20, 80);
     doc.autoTable({
-      startY: 71,
+      startY: 86,
       head: [['Product', 'Rate', 'Quantity', 'Total Price']],
       body: order.products.map(product => [
         product.product,
         `Rs. ${product.rate.toFixed(2)}`,
         product.quantity,
         `Rs. ${product.totalPrice.toFixed(2)}`,
-        
       ]),
-     
       theme: 'striped'
     });
 
-
     // Add Total Amount
     doc.setFontSize(14);
-    
     doc.text(`Total Bill: Rs. ${overallTotalPrice.toFixed(2)}`, 20, doc.autoTable.previous.finalY + 10);
 
     // Save PDF
@@ -165,6 +166,19 @@ const AddOrder = () => {
               id="customerPhoneNumber"
               name="customerPhoneNumber"
               value={order.customerPhoneNumber}
+              onChange={handleChange}
+              required
+            />
+          </div>
+
+          {/* New Date and Time Section */}
+          <div className="form-group">
+            <label htmlFor="dateTime">Date and Time:</label>
+            <input
+              type="datetime-local"
+              id="dateTime"
+              name="dateTime"
+              value={order.dateTime}
               onChange={handleChange}
               required
             />

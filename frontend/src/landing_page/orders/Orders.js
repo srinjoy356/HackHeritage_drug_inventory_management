@@ -158,6 +158,7 @@ const Orders = () => {
               <th>Bill ID</th>
               <th>Customer Name</th>
               <th>Phone Number</th>
+              <th>Date & Time</th>
               <th>Product Qty</th>
               <th>Total Price</th>
               <th>Status</th>
@@ -170,6 +171,7 @@ const Orders = () => {
                 <td>BILL#100{order.id}</td>
                 <td>{order.customerName}</td>
                 <td>{order.customerPhoneNumber}</td>
+                <td>{order.dateTime}</td>
                 <td>{order.products.length}</td>
                 <td>₹{order.products.reduce((total, product) => total + product.totalPrice, 0).toFixed(2)}</td>
                 <td>
@@ -260,7 +262,7 @@ const Orders = () => {
                           />
                         </td>
                         <td>
-                          <button type="button" onClick={() => handleRemoveProduct(index)}>Remove</button>
+                          <button type="button" style={{backgroundColor:"red" , color:"white"}} onClick={() => handleRemoveProduct(index)}>Remove</button>
                         </td>
                       </tr>
                     ))}

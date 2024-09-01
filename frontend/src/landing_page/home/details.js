@@ -74,23 +74,29 @@ const Details = () => {
        const data = top10Products.map(item => item[1]);
        
        const { average, highest } = calculateOrderValues(ordersData);
-       
+       const colors =['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF', '#FF0000', '#8884d8', '#83a6ed', '#8dd1e1', '#82ca9d' , '#33F6FF', '#F6FF33'];
        // Pie Chart Data
        const pieChartData = {
-         labels: labels,
+        labels,
          datasets: [
            {
              label: 'Top 10 Selling Products',
              data: data,
              backgroundColor: [
-               '#FF6384', '#36A2EB', '#FFCE56', '#FF5733', '#33FF57',
-               '#33A1FF', '#FF33F6', '#F6FF33', '#33F6FF', '#F6FF33'
+              '#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF', '#FF0000', '#8884d8', '#83a6ed', '#8dd1e1', '#82ca9d' , '#33F6FF', '#F6FF33'
              ],
-             borderWidth: 1
+             borderWidth: 5
            }
          ]
        };
-       
+       const chartOptions = {
+        cutout: '60%', // Adjust the thickness of the doughnut
+        plugins: {
+          legend: {
+            display: false, // Disable the default legend
+          },
+        },
+      };
        // Bar Chart Data
        const barChartData = {
          labels: ['Average Order Value', 'Highest Order Value'],
@@ -166,8 +172,21 @@ const Details = () => {
         </div>
         <div className="statistics">
             <div className='chart-container-pie'>
-        <h2>Top 10 Selling Products</h2>
-        <Pie data={pieChartData} />
+        <div>
+            <h2 className='selling-products'>Top 10 Selling Products</h2>
+        <Doughnut data={pieChartData} options={chartOptions} />
+        </div>
+        <div className="legend">
+        {labels.map((label, index) => (
+          <div key={index} className="legend-item">
+            <span
+              className="legend-color"
+              style={{ backgroundColor: colors[index] }}
+            ></span>
+            <span className="legend-label">{label}</span>
+          </div>
+        ))}
+      </div>
         </div>
       <div className="chart-container-bar">
         <h2>Order Value Statistics</h2>

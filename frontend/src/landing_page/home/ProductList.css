@@ -57,13 +57,18 @@ th {
     border-radius: 4px;
 }
 .chart-container-pie {
-    width: 35%;
-
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     margin: 10px;
     padding: 20px;
+    padding-left: 40px;
+    padding-top: 70px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    
   }
   
   .chart-container h2 {
@@ -85,9 +90,41 @@ th {
  width: 35%;
  height: 30%;
     margin: 10px;
+    
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
   }
   
+.legend {
+    flex: 1; /* Make the legend take equal space */
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    margin-left: 35px; /* Add some space between the chart and legend */
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; /* Space between legend items */
+  }
+  
+  .legend-color {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+  
+  .legend-label {
+    font-size: 14px;
+    color: #333;
+  }
+  .selling-products{
+    position: absolute;
+right: 1050px;
+top: 530px;
+  }

@@ -1,3 +1,8 @@
+function getRandomDate(start, end) {
+  const date = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+  return date.toLocaleString();
+}
+
 export const productsData = [
     {
       id: 1,
@@ -231,7 +236,7 @@ export const productsData = [
         }
       ],
       overallTotalPrice: productsData[0].price * 2 + productsData[1].price * 1,
-      dateTime: new Date().toLocaleString(),
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Paid"
     },
     {
@@ -248,7 +253,7 @@ export const productsData = [
         }
       ],
       overallTotalPrice: productsData[2].price * 3,
-      dateTime: new Date().toLocaleString(),
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Unpaid"
     },
     {
@@ -271,7 +276,7 @@ export const productsData = [
         }
       ],
       overallTotalPrice: productsData[3].price * 5 + productsData[4].price * 1,
-      dateTime: new Date().toLocaleString(),
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Paid"
     },
     {
@@ -288,7 +293,7 @@ export const productsData = [
         }
       ],
       overallTotalPrice: productsData[5].price * 10,
-      dateTime: new Date().toLocaleString(),
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Paid"
     },
     {
@@ -311,7 +316,7 @@ export const productsData = [
         }
       ],
       overallTotalPrice: productsData[6].price * 1 + productsData[7].price * 2,
-      dateTime: new Date().toLocaleString(),
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Unpaid"
     },
     {
@@ -328,7 +333,7 @@ export const productsData = [
         }
       ],
       overallTotalPrice: productsData[8].price * 1,
-      dateTime: new Date().toLocaleString(),
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Paid"
     },
     {
@@ -345,7 +350,7 @@ export const productsData = [
         }
       ],
       overallTotalPrice: productsData[9].price * 6,
-      dateTime: new Date().toLocaleString(),
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Unpaid"
     },
     {
@@ -368,7 +373,7 @@ export const productsData = [
         }
       ],
       overallTotalPrice: productsData[0].price * 4 + productsData[1].price * 1,
-      dateTime: new Date().toLocaleString(),
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Paid"
     },
     {
@@ -385,7 +390,7 @@ export const productsData = [
         }
       ],
       overallTotalPrice: productsData[2].price * 2,
-      dateTime: new Date().toLocaleString(),
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Unpaid"
     },
     {
@@ -408,7 +413,7 @@ export const productsData = [
         }
       ],
       overallTotalPrice: productsData[3].price * 3 + productsData[4].price * 1,
-      dateTime: new Date().toLocaleString(),
+      dateTime:getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Paid"
     }
   ];
