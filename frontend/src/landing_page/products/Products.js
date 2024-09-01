@@ -104,7 +104,7 @@ function Products() {
             <th>Price</th>
             <th>Availability</th>
             <th>Quantity</th>
-            <th>Warehouse</th>
+            <th>Shelf No.</th>
             <th>Actions</th>
           </tr>
         </thead>
@@ -126,7 +126,7 @@ function Products() {
                 )}
               </td>
               <td>{product.quantity}</td>
-              <td>{product.warehouse}</td>
+              <td>{product.shelfNumber}</td>
               <td>
                 <button
                   className="action-button edit-button"
@@ -192,11 +192,11 @@ function Products() {
                 value={selectedProduct.quantity}
                 onChange={handleInputChange}
               />
-              <label>Warehouse:</label>
+              <label>Shelf No. :</label>
               <input
                 type="text"
                 name="warehouse"
-                value={selectedProduct.warehouse}
+                value={selectedProduct.shelfNumber}
                 onChange={handleInputChange}
               />
               <label>Product Image URL:</label>
@@ -232,9 +232,9 @@ function Products() {
             <p><strong>Expiry Date:</strong> {selectedProduct.expiryDate}</p>
             <p><strong>Price:</strong> &#x20b9;{selectedProduct.price.toFixed(2)}</p>
             <p><strong>Quantity:</strong> {selectedProduct.quantity}</p>
-            <p><strong>Warehouse:</strong> {selectedProduct.warehouse}</p>
+            <p><strong>Shelf No. :</strong> {selectedProduct.shelfNumber}</p>
             <p><strong>Description:</strong> {selectedProduct.description}</p>
-            <img src={selectedProduct.image} alt={selectedProduct.name} className="product-image" />
+            <img src={selectedProduct.image} style={{height:"200px" , width:"200px" , alignSelf:"center"}} alt={selectedProduct.name} className="product-image" />
             <button className="close-button" onClick={handleCloseModal}>
               Close
             </button>

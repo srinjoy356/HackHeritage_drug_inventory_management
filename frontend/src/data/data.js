@@ -4,216 +4,228 @@ function getRandomDate(start, end) {
 }
 
 export const productsData = [
-    {
-      id: 1,
-      name: "Organic Honey",
-      category: "Food & Beverage",
-      expiryDate: "2025-08-15",
-      price: 20.99,
-      quantity:0,
-      warehouse: "Warehouse A",
-      image: "https://example.com/images/honey.jpg", // Replace with an actual image URL
-      description: "Pure organic honey sourced from local farms. Perfect for adding sweetness to your dishes."
-    },
-    {
-      id: 2,
-      name: "Wireless Headphones",
-      category: "Electronics",
-      expiryDate: "2028-12-31",
-      price: 150.00,
-      quantity: 200,
-      warehouse: "Warehouse B",
-      image: "https://example.com/images/headphones.jpg", // Replace with an actual image URL
-      description: "Noise-cancelling wireless headphones with high-quality sound and long battery life."
-    },
-    {
-      id: 3,
-      name: "Vitamin C Serum",
-      category: "Beauty & Health",
-      expiryDate: "2026-03-10",
-      price: 30.50,
-      quantity: 120,
-      warehouse: "Warehouse C",
-      image: "https://example.com/images/serum.jpg", // Replace with an actual image URL
-      description: "Brightening Vitamin C serum for glowing skin. Suitable for all skin types."
-    },
-    {
-      id: 4,
-      name: "Eco-friendly Notebook",
-      category: "Stationery",
-      expiryDate: "2030-01-01",
-      price: 12.99,
-      quantity: 500,
-      warehouse: "Warehouse D",
-      image: "https://example.com/images/notebook.jpg", // Replace with an actual image URL
-      description: "Eco-friendly notebook made from recycled paper. Perfect for everyday notes and sketches."
-    },
-    {
-      id: 5,
-      name: "LED Desk Lamp",
-      category: "Home & Living",
-      expiryDate: "2029-07-21",
-      price: 45.00,
-      quantity: 75,
-      warehouse: "Warehouse E",
-      image: "https://example.com/images/lamp.jpg", // Replace with an actual image URL
-      description: "Modern LED desk lamp with adjustable brightness and flexible arm for perfect lighting."
-    },
-    {
-      id: 6,
-      name: "Green Tea",
-      category: "Food & Beverage",
-      expiryDate: "2024-11-30",
-      price: 10.99,
-      quantity: 300,
-      warehouse: "Warehouse F",
-      image: "https://example.com/images/greentea.jpg", // Replace with an actual image URL
-      description: "Premium organic green tea leaves, rich in antioxidants and perfect for a healthy lifestyle."
-    },
-    {
-      id: 7,
-      name: "Smart Thermostat",
-      category: "Home Automation",
-      expiryDate: "2031-05-01",
-      price: 199.99,
-      quantity: 0,
-      warehouse: "Warehouse G",
-      image: "https://example.com/images/thermostat.jpg", // Replace with an actual image URL
-      description: "Smart thermostat with Wi-Fi control and energy-saving features. Compatible with smart home systems."
-    },
-    {
-      id: 8,
-      name: "Yoga Mat",
-      category: "Sports & Fitness",
-      expiryDate: "2027-09-14",
-      price: 25.99,
-      quantity: 100,
-      warehouse: "Warehouse H",
-      image: "https://example.com/images/yogamat.jpg", // Replace with an actual image URL
-      description: "Durable and non-slip yoga mat, ideal for all types of yoga and exercise routines."
-    },
-    {
-      id: 9,
-      name: "Bluetooth Speaker",
-      category: "Electronics",
-      expiryDate: "2032-02-28",
-      price: 75.00,
-      quantity: 150,
-      warehouse: "Warehouse I",
-      image: "https://example.com/images/speaker.jpg", // Replace with an actual image URL
-      description: "Portable Bluetooth speaker with superior sound quality and water-resistant design."
-    },
-    {
-      id: 10,
-      name: "Ceramic Coffee Mug",
-      category: "Home & Living",
-      expiryDate: "2035-12-25",
-      price: 8.50,
-      quantity: 1000,
-      warehouse: "Warehouse J",
-      image: "https://example.com/images/coffeemug.jpg", // Replace with an actual image URL
-      description: "Stylish ceramic coffee mug, perfect for enjoying your favorite hot beverages."
-    },
-    {
-      id: 11,
-      name: "Ceramic Coffee Mug",
-      category: "Home & Living",
-      expiryDate: "2035-12-25",
-      price: 8.50,
-      quantity: 1000,
-      warehouse: "Warehouse J",
-      image: "https://example.com/images/coffeemug.jpg", // Replace with an actual image URL
-      description: "Stylish ceramic coffee mug, perfect for enjoying your favorite hot beverages."
-    },
-    {
-      id: 11,
-      name: "Portable Blender",
-      category: "Home & Living",
-      expiryDate: "2029-11-30",
-      price: 55.00,
-      quantity: 8,
-      warehouse: "Warehouse K",
-      image: "https://example.com/images/blender.jpg", // Replace with an actual image URL
-      description: "Compact and powerful portable blender, perfect for making smoothies on the go."
-    },
-    {
-      id: 12,
-      name: "Fitness Tracker",
-      category: "Sports & Fitness",
-      expiryDate: "2027-10-01",
-      price: 120.00,
-      quantity: 10,
-      warehouse: "Warehouse L",
-      image: "https://example.com/images/fitness-tracker.jpg", // Replace with an actual image URL
-      description: "Wearable fitness tracker with heart rate monitoring and activity tracking features."
-    },
-    {
-      id: 13,
-      name: "Digital Camera",
-      category: "Electronics",
-      expiryDate: "2026-05-15",
-      price: 499.99,
-      quantity: 3,
-      warehouse: "Warehouse M",
-      image: "https://example.com/images/digital-camera.jpg", // Replace with an actual image URL
-      description: "High-resolution digital camera with advanced features for professional photography."
-    },
-    {
-      id: 14,
-      name: "Yoga Blocks",
-      category: "Sports & Fitness",
-      expiryDate: "2028-04-20",
-      price: 15.00,
-      quantity: 20,
-      warehouse: "Warehouse N",
-      image: "https://example.com/images/yoga-blocks.jpg", // Replace with an actual image URL
-      description: "Durable foam yoga blocks for improved stability and support during yoga practice."
-    },
-    {
-      id: 15,
-      name: "Wireless Charger",
-      category: "Electronics",
-      expiryDate: "2030-03-01",
-      price: 35.00,
-      quantity: 9,
-      warehouse: "Warehouse O",
-      image: "https://example.com/images/wireless-charger.jpg", // Replace with an actual image URL
-      description: "Convenient wireless charger with fast charging capabilities for compatible devices."
-    },
-    {
-      id: 16,
-      name: "Aspirin Tablets",
-      category: "Medicine",
-      expiryDate: "2025-12-31",
-      price: 8.50,
-      quantity: 500,
-      warehouse: "Warehouse P",
-      image: "https://example.com/images/aspirin.jpg", // Replace with an actual image URL
-      description: "Pain relief and anti-inflammatory medication. Suitable for treating mild to moderate pain."
-    },
-    {
-      id: 17,
-      name: "Vitamin D Supplements",
-      category: "Medicine",
-      expiryDate: "2026-06-30",
-      price: 12.00,
-      quantity: 300,
-      warehouse: "Warehouse Q",
-      image: "https://example.com/images/vitamin-d.jpg", // Replace with an actual image URL
-      description: "Vitamin D supplements to support bone health and immune function."
-    },
-    {
-      id: 18,
-      name: "Cough Syrup",
-      category: "Medicine",
-      expiryDate: "2024-10-15",
-      price: 14.75,
-      quantity: 5,
-      warehouse: "Warehouse R",
-      image: "https://example.com/images/cough-syrup.jpg", // Replace with an actual image URL
-      description: "Effective cough syrup for relieving cough and throat irritation."
-    }
-  ];
+  {
+    id: 1,
+    name: "Paracetamol Tablets",
+    category: "Pain Relief",
+    expiryDate: "2025-08-15",
+    price: 50.99,
+    quantity: 8,
+    shelfNumber: "Shelf A",
+    image: "https://5.imimg.com/data5/SELLER/Default/2022/9/IV/UY/CG/75459511/500mg-paracetamol-tablet.jpg", 
+    description: "Effective pain relief for headaches, fever, and mild aches."
+  },
+  {
+    id: 2,
+    name: "Cough Syrup",
+    category: "Cough & Cold",
+    expiryDate: "2024-11-30",
+    price: 170.50,
+    quantity: 200,
+    shelfNumber: "Shelf B",
+    image: "https://images.apollo247.in/pub/media/catalog/product/a/l/alk0008.jpg?tr=w-400,q-100,f-webp,c-at_max",
+    description: "Soothing syrup for relief from cough and throat irritation."
+  },
+  {
+    id: 3,
+    name: "Vitamin D Supplements",
+    category: "Vitamins & Supplements",
+    expiryDate: "2026-03-10",
+    price: 120.99,
+    quantity: 120,
+    shelfNumber: "Shelf C",
+    image: "https://m.media-amazon.com/images/I/61-4q3mEt+L.jpg",
+    description: "Vitamin D supplements for bone health and immune support."
+  },
+  {
+    id: 4,
+    name: "Antacid Tablets",
+    category: "Digestive Health",
+    expiryDate: "2027-01-01",
+    price: 60.99,
+    quantity: 500,
+    shelfNumber: "Shelf D",
+    image: "https://images-cdn.ubuy.co.in/64c1fcd40d532810824d07bd-equate-ultra-strength-antacid-tablets.jpg",
+    description: "Relieves heartburn and indigestion."
+  },
+  {
+    id: 5,
+    name: "Ibuprofen",
+    category: "Pain Relief",
+    expiryDate: "2026-07-21",
+    price: 90.99,
+    quantity: 75,
+    shelfNumber: "Shelf E",
+    image: "https://5.imimg.com/data5/SELLER/Default/2023/6/319597573/MH/NE/SR/135658020/ibuprofen-400-mg-bp-tablets.jpg",
+    description: "Pain relief for inflammation and mild to moderate pain."
+  },
+  {
+    id: 6,
+    name: "Multivitamin Capsules",
+    category: "Vitamins & Supplements",
+    expiryDate: "2025-12-31",
+    price: 150.99,
+    quantity: 300,
+    shelfNumber: "Shelf A",
+    image: "https://5.imimg.com/data5/SELLER/Default/2022/12/GO/RT/KE/40092401/multivitamin-multimineral-capsule.jpg",
+    description: "Daily multivitamin supplement for overall health."
+  },
+  {
+    id: 7,
+    name: "Allergy Relief Tablets",
+    category: "Allergy & Immunity",
+    expiryDate: "2026-05-01",
+    price: 80.99,
+    quantity: 200,
+    shelfNumber: "Shelf B",
+    image: "https://images-cdn.ubuy.co.in/63930c2757343c79802716b2-equate-allergy-relief-tablets-with.jpg",
+    description: "Relieves symptoms of allergies like sneezing and runny nose."
+  },
+  {
+    id: 8,
+    name: "Antibiotic Ointment",
+    category: "First Aid",
+    expiryDate: "2027-09-14",
+    price: 125.50,
+    quantity: 0,
+    shelfNumber: "Shelf C",
+    image: "https://images-cdn.ubuy.co.in/633aa06331538537443d82de-neosporin-antibiotic-original-ointment.jpg",
+    description: "Topical ointment to prevent infection in minor cuts and burns."
+  },
+  {
+    id: 9,
+    name: "Calcium Tablets",
+    category: "Vitamins & Supplements",
+    expiryDate: "2028-02-28",
+    price: 140.00,
+    quantity: 100,
+    shelfNumber: "Shelf D",
+    image: "https://images.apollo247.in/pub/media/catalog/product/C/O/COR0649_1_1.jpg",
+    description: "Supports bone health with essential calcium."
+  },
+  {
+    id: 10,
+    name: "Cough Lozenges",
+    category: "Cough & Cold",
+    expiryDate: "2026-12-25",
+    price: 300.50,
+    quantity: 0,
+    shelfNumber: "Shelf E",
+    image: "https://5.imimg.com/data5/SELLER/Default/2023/8/336260684/MC/CH/XE/39191657/cofsils-cough-lozenges.jpeg",
+    description: "Relieves throat irritation and cough."
+  },
+  {
+    id: 11,
+    name: "Cold and Flu Capsules",
+    category: "Cough & Cold",
+    expiryDate: "2025-11-30",
+    price: 80.99,
+    quantity: 300,
+    shelfNumber: "Shelf A",
+    image: "https://example.com/images/cold-flu-capsules.jpg",
+    description: "Relieves symptoms of cold and flu like aches and fever."
+  },
+  {
+    id: 12,
+    name: "Anti-Fungal Cream",
+    category: "Skin Care",
+    expiryDate: "2027-10-01",
+    price: 100.99,
+    quantity: 150,
+    shelfNumber: "Shelf B",
+    image: "https://example.com/images/anti-fungal-cream.jpg",
+    description: "Effective treatment for fungal infections of the skin."
+  },
+  {
+    id: 13,
+    name: "Antihistamine Tablets",
+    category: "Allergy & Immunity",
+    expiryDate: "2026-05-15",
+    price: 50.50,
+    quantity: 50,
+    shelfNumber: "Shelf C",
+    image: "https://example.com/images/antihistamine-tablets.jpg",
+    description: "Provides relief from allergic reactions like hives and itching."
+  },
+  {
+    id: 14,
+    name: "Nasal Decongestant Spray",
+    category: "Cough & Cold",
+    expiryDate: "2028-04-20",
+    price: 70.99,
+    quantity: 20,
+    shelfNumber: "Shelf D",
+    image: "https://example.com/images/nasal-spray.jpg",
+    description: "Clears nasal congestion due to colds or allergies."
+  },
+  {
+    id: 15,
+    name: "Laxative Tablets",
+    category: "Digestive Health",
+    expiryDate: "2029-03-01",
+    price: 60.50,
+    quantity: 9,
+    shelfNumber: "Shelf E",
+    image: "https://cdn01.pharmeasy.in/dam/products_otc/247965/dulcoflex-5mg-tablet-constipation-laxative-bowel-movement-regulator-1-strip-10-tablet-3-1671740767.jpg",
+    description: "Relieves constipation and promotes bowel movement."
+  },
+  {
+    id: 16,
+    name: "Detol",
+    category: "First Aid",
+    expiryDate: "2025-12-31",
+    price: 89.50,
+    quantity: 500,
+    shelfNumber: "Shelf A",
+    image: "https://www.netmeds.com/images/product-v1/600x600/15114/dettol_antiseptic_liquid_60_ml_0_2.jpg",
+    description: "Disinfects wounds and prevents infections."
+  },
+  {
+    id: 17,
+    name: "Cough Suppressant",
+    category: "Cough & Cold",
+    expiryDate: "2026-06-30",
+    price: 90.50,
+    quantity: 3,
+    shelfNumber: "Shelf B",
+    image: "https://5.imimg.com/data5/SELLER/Default/2022/3/KJ/IU/CU/4262908/dextromethorphan-hydrobromide-chlorpheniramine-maleate-syrup.png",
+    description: "Relieves persistent cough and throat irritation."
+  },
+  {
+    id: 18,
+    name: "Eye Drops",
+    category: "Eye Care",
+    expiryDate: "2024-10-15",
+    price: 150.25,
+    quantity: 10,
+    shelfNumber: "Shelf C",
+    image: "https://himalayawellness.in/cdn/shop/products/OPHTHACARE-DROPS-10ML.jpg?v=1659002377",
+    description: "Soothes dry and irritated eyes."
+  },
+  {
+    id: 19,
+    name: "Tear Drop",
+    category: "Eye Care",
+    expiryDate: "2024-10-15",
+    price: 90.25,
+    quantity: 10,
+    shelfNumber: "Shelf C",
+    image: "https://himalayawellness.in/cdn/shop/products/OPHTHACARE-DROPS-10ML.jpg?v=1659002377",
+    description: "Soothes dry and irritated eyes."
+  },
+  {
+    id: 20,
+    name: "Miatro",
+    category: "Eye Care",
+    expiryDate: "2024-10-15",
+    price: 125.25,
+    quantity: 100,
+    shelfNumber: "Shelf C",
+    image: "https://himalayawellness.in/cdn/shop/products/OPHTHACARE-DROPS-10ML.jpg?v=1659002377",
+    description: "Soothes dry and irritated eyes."
+  }
+];
+
 
   export const ordersData = [
     {
@@ -414,6 +426,200 @@ export const productsData = [
       ],
       overallTotalPrice: productsData[3].price * 3 + productsData[4].price * 1,
       dateTime:getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
+      status: "Paid"
+    },
+    {
+      id: 11,
+      customerName: "Kevin Anderson",
+      customerPhoneNumber: "6785432109",
+      customerAddress: "707 Willow St, Rivertown",
+      products: [
+        {
+          product: productsData[14].name, // Laxative Tablets
+          rate: productsData[14].price,
+          quantity: 3,
+          totalPrice: productsData[14].price * 3
+        }
+      ],
+      overallTotalPrice: productsData[14].price * 3,
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
+      status: "Unpaid"
+    },
+    {
+      id: 12,
+      customerName: "Linda White",
+      customerPhoneNumber: "5674321098",
+      customerAddress: "808 Spruce St, Westville",
+      products: [
+        {
+          product: productsData[15].name, // Antiseptic Liquid
+          rate: productsData[15].price,
+          quantity: 10,
+          totalPrice: productsData[15].price * 10
+        },
+        {
+          product: productsData[16].name, // Cough Suppressant
+          rate: productsData[16].price,
+          quantity: 2,
+          totalPrice: productsData[16].price * 2
+        }
+      ],
+      overallTotalPrice: productsData[15].price * 10 + productsData[16].price * 2,
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
+      status: "Paid"
+    },
+    {
+      id: 13,
+      customerName: "Maria Hernandez",
+      customerPhoneNumber: "4563210987",
+      customerAddress: "909 Cherry St, Lakeside",
+      products: [
+        {
+          product: productsData[17].name, // Eye Drops
+          rate: productsData[17].price,
+          quantity: 6,
+          totalPrice: productsData[17].price * 6
+        }
+      ],
+      overallTotalPrice: productsData[17].price * 6,
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
+      status: "Paid"
+    },
+    {
+      id: 14,
+      customerName: "Nicholas Moore",
+      customerPhoneNumber: "3452109876",
+      customerAddress: "1010 Pine St, Sunnydale",
+      products: [
+        {
+          product: productsData[1].name, // Cough Syrup
+          rate: productsData[1].price,
+          quantity: 4,
+          totalPrice: productsData[1].price * 4
+        },
+        {
+          product: productsData[4].name, // Ibuprofen
+          rate: productsData[4].price,
+          quantity: 2,
+          totalPrice: productsData[4].price * 2
+        }
+      ],
+      overallTotalPrice: productsData[1].price * 4 + productsData[4].price * 2,
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
+      status: "Unpaid"
+    },
+    {
+      id: 15,
+      customerName: "Olivia Scott",
+      customerPhoneNumber: "2341098765",
+      customerAddress: "2021 Elm St, Bayshore",
+      products: [
+        {
+          product: productsData[5].name, // Multivitamin Capsules
+          rate: productsData[5].price,
+          quantity: 3,
+          totalPrice: productsData[5].price * 3
+        }
+      ],
+      overallTotalPrice: productsData[5].price * 3,
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
+      status: "Paid"
+    },
+    {
+      id: 16,
+      customerName: "Peter Clark",
+      customerPhoneNumber: "1230987654",
+      customerAddress: "3032 Maple St, Greenhill",
+      products: [
+        {
+          product: productsData[6].name, // Allergy Relief Tablets
+          rate: productsData[6].price,
+          quantity: 5,
+          totalPrice: productsData[6].price * 5
+        },
+        {
+          product: productsData[8].name, // Calcium Tablets
+          rate: productsData[8].price,
+          quantity: 4,
+          totalPrice: productsData[8].price * 4
+        }
+      ],
+      overallTotalPrice: productsData[6].price * 5 + productsData[8].price * 4,
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
+      status: "Unpaid"
+    },
+    {
+      id: 17,
+      customerName: "Quincy Baker",
+      customerPhoneNumber: "0987654321",
+      customerAddress: "4043 Birch St, Meadowfield",
+      products: [
+        {
+          product: productsData[9].name, // Cough Lozenges
+          rate: productsData[9].price,
+          quantity: 8,
+          totalPrice: productsData[9].price * 8
+        }
+      ],
+      overallTotalPrice: productsData[9].price * 8,
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
+      status: "Paid"
+    },
+    {
+      id: 18,
+      customerName: "Rachel Parker",
+      customerPhoneNumber: "8765432109",
+      customerAddress: "5054 Cedar St, Rockville",
+      products: [
+        {
+          product: productsData[10].name, // Cold and Flu Capsules
+          rate: productsData[10].price,
+          quantity: 7,
+          totalPrice: productsData[10].price * 7
+        }
+      ],
+      overallTotalPrice: productsData[10].price * 7,
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
+      status: "Paid"
+    },
+    {
+      id: 19,
+      customerName: "Samuel Young",
+      customerPhoneNumber: "7654321098",
+      customerAddress: "6065 Willow St, Hillside",
+      products: [
+        {
+          product: productsData[11].name, // Anti-Fungal Cream
+          rate: productsData[11].price,
+          quantity: 2,
+          totalPrice: productsData[11].price * 2
+        }
+      ],
+      overallTotalPrice: productsData[11].price * 2,
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
+      status: "Unpaid"
+    },
+    {
+      id: 20,
+      customerName: "Thomas King",
+      customerPhoneNumber: "6543210987",
+      customerAddress: "7076 Oak St, Valleyview",
+      products: [
+        {
+          product: productsData[12].name, // Antihistamine Tablets
+          rate: productsData[12].price,
+          quantity: 6,
+          totalPrice: productsData[12].price * 6
+        },
+        {
+          product: productsData[13].name, // Nasal Decongestant Spray
+          rate: productsData[13].price,
+          quantity: 1,
+          totalPrice: productsData[13].price * 1
+        }
+      ],
+      overallTotalPrice: productsData[12].price * 6 + productsData[13].price * 1,
+      dateTime: getRandomDate(new Date(2023, 0, 1), new Date(2024, 11, 31)),
       status: "Paid"
     }
   ];

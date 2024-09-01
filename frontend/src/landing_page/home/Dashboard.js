@@ -33,32 +33,77 @@ function Dashboard() {
       unpaid: unpaidCount
     };
   };
+  function countUniqueShelves(products) {
+    // Use a Set to store unique shelf numbers
+    const shelves = new Set();
+  
+    // Iterate through each product and add the shelf number to the Set
+    products.forEach(product => {
+      if (product.shelfNumber) {
+        shelves.add(product.shelfNumber);
+      }
+    });
+  
+    // Return the number of unique shelves
+    return shelves.size;
+  }
+  
+  // Example usage
+  const totalUniqueShelves = countUniqueShelves(productsData);
   const { paid, unpaid } = countOrdersByStatus(ordersData);
-  const unpaidOrders = unpaid // Example number
-  const numberOfOrders = ordersData.length; // Example number
-  const ordersPlaced = paid; // Example number
-  const numberOfWarehouses = 3; // Example number
+  const unpaidOrders = unpaid 
+  const numberOfOrders = ordersData.length; 
+  const ordersPlaced = paid; 
+  const numberOfWarehouses = totalUniqueShelves; // Example number
 
   // Prepare data for charts
   const categoryData = productCategories.map(category => ({
     name: category,
     value: productsData.filter(product => product.category === category).reduce((acc, product) => acc + product.quantity, 0),
   }));
+  // Function to generate random sales data for each month
+function generateMonthlySalesData() {
+  let monthlySales = [];
+  for (let i = 0; i < 12; i++) {
+      // Generating random sales between 5000 and 20000
+      let sales = Math.floor(Math.random() * 15001) + 5000;
+      monthlySales.push(sales);
+  }
+  return monthlySales;
+}
+
+// Function to store sales data for the year 2023
+function storeSalesOf2023() {
+  let salesOf2023 = generateMonthlySalesData();
+  console.log("Sales of 2023: ", salesOf2023);
+  return salesOf2023;
+}
+
+// Function to store sales data for the year 2024
+function storeSalesOf2024() {
+  let salesOf2024 = generateMonthlySalesData();
+  console.log("Sales of 2024: ", salesOf2024);
+  return salesOf2024;
+}
+
+// Store sales data
+let sales2023 = storeSalesOf2023();
+let sales2024 = storeSalesOf2024();
+
 
   const salesData = [
-    { month: 'Jan', Sales_this_year: 30 , Sales_prev_year: 23 },
-    { month: 'Feb', Sales_this_year: 20 , Sales_prev_year: 45  },
-    { month: 'Feb', Sales_this_year: 20 , Sales_prev_year: 67 },
-    { month: 'Mar', Sales_this_year: 27 , Sales_prev_year: 32},
-    { month: 'Apr', Sales_this_year: 18 , Sales_prev_year: 56},
-    { month: 'May', Sales_this_year: 23 , Sales_prev_year: 23},
-    { month: 'Jun', Sales_this_year: 34 , Sales_prev_year: 31},
-    { month: 'Jul', Sales_this_year: 40 , Sales_prev_year: 56},
-    { month: 'Aug', Sales_this_year: 32 , Sales_prev_year: 45},
-    { month: 'Sep', Sales_this_year: 45 , Sales_prev_year: 37},
-    { month: 'Oct', Sales_this_year: 50 , Sales_prev_year: 32},
-    { month: 'Nov', Sales_this_year: 42 , Sales_prev_year: 44},
-    { month: 'Dec', Sales_this_year: 60 , Sales_prev_year: 13},
+    { month: 'Jan', Sales_this_year: sales2024[0] , Sales_prev_year: sales2023[0] },
+    { month: 'Feb', Sales_this_year: sales2024[1]  , Sales_prev_year: sales2023[1]  },
+    { month: 'Mar', Sales_this_year: sales2024[2]  , Sales_prev_year:sales2023[2] },
+    { month: 'Apr', Sales_this_year: sales2024[3]  , Sales_prev_year:sales2023[3] },
+    { month: 'May', Sales_this_year: sales2024[4]  , Sales_prev_year:sales2023[4] },
+    { month: 'Jun', Sales_this_year: sales2024[5]  , Sales_prev_year: sales2023[5]},
+    { month: 'Jul', Sales_this_year: sales2024[6]  , Sales_prev_year:sales2023[6] },
+    { month: 'Aug', Sales_this_year: sales2024[7]  , Sales_prev_year:sales2023[7] },
+    { month: 'Sep', Sales_this_year: sales2024[8]  , Sales_prev_year:sales2023[8] },
+    { month: 'Oct', Sales_this_year:sales2024[9]  , Sales_prev_year: sales2023[9]},
+    { month: 'Nov', Sales_this_year: sales2024[10]  , Sales_prev_year:sales2023[10]},
+    { month: 'Dec', Sales_this_year: sales2024[11]  , Sales_prev_year: sales2023[11]},
   ];
 ;
 
@@ -87,7 +132,7 @@ function Dashboard() {
         </div>
         <div className="metric-card">
           <h2>{numberOfWarehouses}</h2>
-          <p>Number of Warehouses</p>
+          <p>Number of Shelfs</p>
         </div>
         <div className="metric-card">
           <h2>&#x20b9;{totalInventoryValue.toFixed(2)}</h2>

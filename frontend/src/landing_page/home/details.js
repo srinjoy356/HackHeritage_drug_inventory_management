@@ -58,8 +58,8 @@ const Details = () => {
         const values = orders.map(order => order.overallTotalPrice);
         const average = values.reduce((sum, value) => sum + value, 0) / values.length;
         const highest = Math.max(...values);
-      
-        return { average, highest };
+      const lowest = Math.min(...values);
+        return { average, highest,lowest };
       };
       
       // Process data for charts
@@ -73,7 +73,7 @@ const Details = () => {
        const labels = top10Products.map(item => item[0]);
        const data = top10Products.map(item => item[1]);
        
-       const { average, highest } = calculateOrderValues(ordersData);
+       const { average, highest , lowest} = calculateOrderValues(ordersData);
        const colors =['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF', '#FF0000', '#8884d8', '#83a6ed', '#8dd1e1', '#82ca9d' , '#33F6FF', '#F6FF33'];
        // Pie Chart Data
        const pieChartData = {
@@ -99,14 +99,14 @@ const Details = () => {
       };
        // Bar Chart Data
        const barChartData = {
-         labels: ['Average Order Value', 'Highest Order Value'],
+         labels: ['Average Order Value', 'Highest Order Value' , 'Lowest Order Value'],
          datasets: [
            {
              label: 'Order Values',
-             data: [average, highest],
-             backgroundColor: ['#FF6384', '#36A2EB'],
+             data: [average, highest , lowest],
+             backgroundColor: ['#FF6384', '#36A2EB', '#8884d8'],
              borderColor: ['#FF6384', '#36A2EB'],
-             borderWidth: 1
+             borderWidth: 0
            }
          ]
        };

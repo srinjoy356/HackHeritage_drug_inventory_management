@@ -94,11 +94,11 @@ function AddProduct() {
           />
         </div>
         <div className="form-group">
-          <label>Warehouse Name:</label>
+          <label>Shelf No. :</label>
           <input
             type="text"
             name="warehouse"
-            value={product.warehouse}
+            value={product.shelfNumber}
             onChange={handleChange}
             required
           />
