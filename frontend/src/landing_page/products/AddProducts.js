@@ -39,6 +39,7 @@ function AddProduct() {
 
   return (
     <>
+    <div className='dash-board'>
     <Sidebar/>
     <div className="form-container">
       <form className="add-product-form" onSubmit={handleSubmit}>
@@ -124,6 +125,7 @@ function AddProduct() {
         </div>
         <button type="submit" className="add-button">Add Product</button>
       </form>
+    </div>
     </div>
     </>
   );

@@ -8,12 +8,13 @@ import Dashboard from './landing_page/home/Dashboard';
 import Orders from './landing_page/orders/Orders';
 import Products from './landing_page/products/Products';
 import Warehouse from './landing_page/warehouse/Warehouse';
-import Category from './landing_page/category/category';
+
 import AddProduct from './landing_page/products/AddProducts';
 import Details from './landing_page/home/details';
 import {BrowserRouter , Routes , Route} from 'react-router-dom';
 import AddOrder from './landing_page/orders/AddOrder';
-
+import Login from './landing_page/user_login/Login';
+import Signup from './landing_page/user_login/Signup';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,15 +23,17 @@ root.render(
 
 <BrowserRouter>
   <Routes>
-  
-    <Route path="/" element={<Dashboard/>}></Route>
+  <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+    <Route path="/home" element={<Dashboard/>}></Route>
   
         <Route path="/details" element={<Details/>}></Route>
     
     <Route path="/orders" element={<Orders/>}></Route>
     <Route path="/warehouse" element={<Warehouse/>}></Route>
     <Route path="/products" element={<Products/>}></Route>
-    <Route path="/category" element={<Category/>}></Route>
+   
     <Route path="/addproducts" element={<AddProduct/>}></Route>
     <Route path="/addorders" element={<AddOrder/>}></Route>
     

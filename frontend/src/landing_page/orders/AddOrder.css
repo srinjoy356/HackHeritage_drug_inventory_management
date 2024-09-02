@@ -1,5 +1,9 @@
 /* AddOrder.css */
 
+.dash-board{
+  margin-left: 80px;
+  margin-top: 60px;
+}
 .add-order-container {
     padding: 20px;
     max-width: 800px;

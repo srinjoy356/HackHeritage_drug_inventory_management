@@ -112,6 +112,7 @@ let sales2024 = storeSalesOf2024();
 
   return (
     <>
+    <div className='dash-board'>
     <Sidebar/>
     <div className="dashboard-container">
       <Nav/>
@@ -181,6 +182,7 @@ let sales2024 = storeSalesOf2024();
          
 
       </div>
+    </div>
     </div>
     </>
   );

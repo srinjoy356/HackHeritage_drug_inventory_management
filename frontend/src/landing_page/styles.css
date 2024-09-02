@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
-:root {
+.side-bar {
   --header-height: 3rem;
   --nav-width: 68px;
   --first-color: #4723d9;
@@ -21,6 +21,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   transition: 0.5s;
+  --body-font: "Nunito", sans-serif;
 }
 a {
   text-decoration: none;

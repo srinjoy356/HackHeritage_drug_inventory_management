@@ -4,9 +4,39 @@ import {productsData}  from '../../data/data';
 import AddProduct from './AddProducts';
 import './ProductManagement.css';
 import Sidebar from '../Sidebar';
+import axios from 'axios';
 
 function Products() {
-  const [products, setProducts] = useState(productsData);
+
+ const drug = [
+    {
+      id: 1,
+      name: "Paracetamol Tablets",
+      category: "Pain Relief",
+      expiryDate: "2025-08-15",
+      price: 50.99,
+      quantity: 8,
+      shelfNumber: "Shelf A",
+      image: "https://5.imimg.com/data5/SELLER/Default/2022/9/IV/UY/CG/75459511/500mg-paracetamol-tablet.jpg", 
+      description: "Effective pain relief for headaches, fever, and mild aches."
+    },
+    {
+      id: 2,
+      name: "Cough Syrup",
+      category: "Cough & Cold",
+      expiryDate: "2024-11-30",
+      price: 170.50,
+      quantity: 200,
+      shelfNumber: "Shelf B",
+      image: "https://images.apollo247.in/pub/media/catalog/product/a/l/alk0008.jpg?tr=w-400,q-100,f-webp,c-at_max",
+      description: "Soothing syrup for relief from cough and throat irritation."
+    }
+  ]
+
+console.log(drug);
+
+
+  const [products, setProducts] = useState(drug);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [isEditing, setIsEditing] = useState(false);
@@ -76,6 +106,7 @@ function Products() {
 
   return (
     <>
+    <div className='dash-board'>
     <Sidebar/>
     <div className="product-management-container">
       <h1>Product Management</h1>
@@ -245,6 +276,7 @@ function Products() {
       <Routes>
         <Route path="/addproducts" element={<AddProduct addProduct={addProduct} />} />
       </Routes>
+    </div>
     </div>
     </>
   );

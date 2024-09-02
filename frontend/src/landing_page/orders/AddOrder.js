@@ -133,6 +133,7 @@ const AddOrder = () => {
 
   return (
     <>
+    <div className='dash-board'>
       <Sidebar />
       <div className="add-order-container">
         <h2>Add New Order</h2>
@@ -261,6 +262,7 @@ const AddOrder = () => {
 
           <button type="submit" className="submit-button">Add Order</button>
         </form>
+      </div>
       </div>
     </>
   );

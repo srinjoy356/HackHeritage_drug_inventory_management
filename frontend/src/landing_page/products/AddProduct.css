@@ -1,4 +1,8 @@
 /* General form container styling */
+.dash-board{
+  margin-left: 80px;
+  margin-top: 60px;
+}
 .form-container {
   display: flex;
   justify-content: center;

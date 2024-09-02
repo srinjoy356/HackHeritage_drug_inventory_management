@@ -1,6 +1,10 @@
 /* General Styles */
 
-  .order-container {
+.dash-board{
+  margin-left: 80px;
+  margin-top: 60px;
+}  
+.order-container {
      /* Adjust based on the width of the Sidebar */
     padding: 20px;
     font-family: "Poppins";

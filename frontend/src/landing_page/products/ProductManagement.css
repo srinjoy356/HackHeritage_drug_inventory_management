@@ -1,6 +1,10 @@
 /* Existing CSS */
 
 /* Container and Top Bar */
+.dash-board{
+  margin-left: 80px;
+  margin-top: 60px;
+}
 .product-management-container {
   padding: 4rem;
   background-color: #f9f9f9;

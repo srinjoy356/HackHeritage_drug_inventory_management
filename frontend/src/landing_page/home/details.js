@@ -112,6 +112,7 @@ const Details = () => {
        };
     return (
         <>
+        <div className='dash-board'>
         <Sidebar/>
         <div className='dashboard-container'>
             <Nav/>
@@ -193,6 +194,7 @@ const Details = () => {
         <Bar data={barChartData} />
       </div>
       </div>
+        </div>
         </div>
         </>
     );

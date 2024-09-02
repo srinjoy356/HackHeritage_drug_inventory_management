@@ -137,6 +137,7 @@ const Orders = () => {
 
   return (
     <>
+    <div className='dash-board'>
       <Sidebar />
       <div className="order-container">
         <h2>Order Management</h2>
@@ -281,6 +282,7 @@ const Orders = () => {
             </form>
           </div>
         )}
+      </div>
       </div>
     </>
   );

@@ -48,6 +48,7 @@ const Sidebar = () => {
     }, []);
 
     return (
+        <div className="side-bar">
         <div id="body-pd">
             <header className={`header ${isNavbarVisible ? 'body-pd' : ''}`} id="header">
                 <div className="header_toggle" onClick={toggleNavbar}>
@@ -63,7 +64,7 @@ const Sidebar = () => {
                         <Link
                             
                             className={`nav_logo `}
-                            to="/"
+                            to="/home"
                         
                         >
                             <i className='bx bx-layer nav_logo-icon dash' style={{fontSize:"28px"}}></i>
@@ -74,7 +75,7 @@ const Sidebar = () => {
                                 
                                 className={`nav_link ${activeLink === 'dashboard' ? 'active' : ''}`}
                                 onClick={() => handleLinkClick('dashboard')}
-                                to="/"
+                                to="/home"
                             >
                                 <i className='bx bx-grid-alt nav_icon' style={{fontSize:"25px"}}></i>
                                 <span className="nav_name">Dashboard</span>
@@ -147,15 +148,7 @@ const Sidebar = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <Link
-                               
-                                className={`nav_link ${activeLink === 'category' ? 'active' : ''}`}
-                                onClick={() => handleLinkClick('category')}
-                                to="/category"
-                            >
-                                <i className="fa-duotone fa-solid fa-list nav_icon"></i>
-                                <span className="nav_name">Category</span>
-                            </Link>
+                            
                             <Link
                                 
                                 className={`nav_link ${activeLink === 'warehouse' ? 'active' : ''}`}
@@ -177,7 +170,7 @@ const Sidebar = () => {
                         </div>
                     </div>
                     <Link
-                        
+                        to='/login'
                         className={`nav_link ${activeLink === 'signout' ? 'active' : ''}`}
                         onClick={() => handleLinkClick('signout')}
                     >
@@ -186,6 +179,7 @@ const Sidebar = () => {
                     </Link>
                 </nav>
             </div>
+        </div>
         </div>
     );
 };
