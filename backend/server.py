@@ -6,8 +6,14 @@ import json
 import products_dao
 import orders_dao
 import uom_dao
+from flask_cors import CORS
+
+
+
 
 app = Flask(__name__)
+
+CORS(app)
 
 connection = get_sql_connection()
 
