@@ -1,13 +1,26 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, session
 from sql_connection import get_sql_connection
 import mysql.connector
 import json
 
+import hashlib
+
+import sign_up
+import log_in
+
 import products_dao
 import orders_dao
 import uom_dao
+from flask_cors import CORS
+
+
+
 
 app = Flask(__name__)
+
+CORS(app)
+
+app.secret_key = 'your_secret_key'
 
 connection = get_sql_connection()
 
@@ -25,15 +38,21 @@ def get_products():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
+
 @app.route('/insertProduct', methods=['POST'])
 def insert_product():
     request_payload = json.loads(request.form['data'])
-    product_id = products_dao.insert_new_product(connection, request_payload)
+    user_id = request_payload.get('user_id')  # Extract the user_id from the request payload
+
+    # Pass the user_id along with the product details to the insert_new_product function
+    product_id = products_dao.insert_new_product(connection, request_payload, user_id)
+
     response = jsonify({
         'product_id': product_id
     })
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
+
 
 @app.route('/getAllOrders', methods=['GET'])
 def get_all_orders():
@@ -105,7 +124,49 @@ def edit_product():
     return response
 
 
+@app.route('/login', methods=['POST'])
+def login_route():
+    data = request.json
+
+    username = data.get('username')
+    password = data.get('password')
+
+    # Input validation
+    if not username or not password:
+        return jsonify({"error": "Missing required fields"}), 400
+
+    connection = get_sql_connection()
+    result = log_in.log_in(connection, username, password)
+
+    if result['status'] == 'success':
+        return jsonify({"message": "Login successful", "unique_user_id": result['unique_user_id']}), 200
+    else:
+        return jsonify({"error": result['message']}), 401
+
+
+
+@app.route('/signup', methods=['POST'])
+def signup_route():
+    data = request.json
+
+    username = data.get('username')
+    password = data.get('password')
+    user_type = data.get('user_type')
+
+    # Input validation (you can add more checks here)
+    if not username or not password or not user_type:
+        return jsonify({"error": "Missing required fields"}), 400
+
+    connection = get_sql_connection()
+    result = sign_up.sign_up(connection, username, password, user_type)
+
+    if "Error" in result:
+        return jsonify({"error": result}), 400
+    else:
+        return jsonify({"message": result}), 201
+
+
 if __name__ == "__main__":
     print("Starting Python Flask Server For Drug Inventory Management System")
-    app.run(port=5000)
+    app.run(port=5000, debug=True)
 

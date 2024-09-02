@@ -24,11 +24,11 @@ def get_all_products(connection):
     return response
 
 
-def insert_new_product(connection, product):
+def insert_new_product(connection, product, user_id):
     cursor = connection.cursor()
     query = ("INSERT INTO products "
-             "(name, uom_id, price_per_unit, quantity_of_uom, category, exp_date, shelf_num,picture_of_the_prod, description) "
-             "VALUES (%s, %s, %s, %s, %s, %s, %s, %s,%s)")
+             "(name, uom_id, price_per_unit, quantity_of_uom, category, exp_date, shelf_num, picture_of_the_prod, description, user_id) "
+             "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
     data = (
         product['name'],
         product['uom_id'],
@@ -38,13 +38,15 @@ def insert_new_product(connection, product):
         product['exp_date'],
         product['shelf_num'],
         product['picture_of_the_prod'],
-        product['description']
+        product['description'],
+        user_id  # Adding the user_id to the insert query
     )
 
     cursor.execute(query, data)
     connection.commit()
 
     return cursor.lastrowid
+
 
 def delete_product(connection, product_id):
     cursor = connection.cursor()

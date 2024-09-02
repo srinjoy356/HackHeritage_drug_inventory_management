@@ -1,7 +1,7 @@
 
 def get_uoms(connection):
     cursor = connection.cursor()
-    query = ("select * from uom")
+    query = ("select * from uom_table")
     cursor.execute(query)
     response = []
     for (uom_id, uom_name) in cursor:
