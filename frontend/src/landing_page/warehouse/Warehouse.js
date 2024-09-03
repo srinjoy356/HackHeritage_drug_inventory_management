@@ -16,7 +16,7 @@ const Warehouse = () => {
     setSelectedProduct(product);
   };
 
-  const closeProductDetails = () => {
+  const closeProductDetails = () => { 
     setSelectedProduct(null);
   };
 
