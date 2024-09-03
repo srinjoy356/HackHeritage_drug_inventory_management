@@ -122,7 +122,7 @@ export const productsData = [
     price: 80.99,
     quantity: 300,
     shelfNumber: "Shelf A",
-    image: "https://example.com/images/cold-flu-capsules.jpg",
+    image: "https://images-cdn.ubuy.co.in/63930c2757343c79802716b2-equate-allergy-relief-tablets-with.jpg",
     description: "Relieves symptoms of cold and flu like aches and fever."
   },
   {
@@ -133,7 +133,7 @@ export const productsData = [
     price: 100.99,
     quantity: 150,
     shelfNumber: "Shelf B",
-    image: "https://example.com/images/anti-fungal-cream.jpg",
+    image: "https://cdn01.pharmeasy.in/dam/products_otc/O99342/canesten-cream-30gm-2-1670499083.jpg",
     description: "Effective treatment for fungal infections of the skin."
   },
   {
@@ -144,7 +144,7 @@ export const productsData = [
     price: 50.50,
     quantity: 50,
     shelfNumber: "Shelf C",
-    image: "https://example.com/images/antihistamine-tablets.jpg",
+    image: "https://5.imimg.com/data5/SELLER/Default/2022/12/OS/NU/EO/48174519/antihistamines-and-antiallergic-tablets.JPG",
     description: "Provides relief from allergic reactions like hives and itching."
   },
   {
@@ -155,7 +155,7 @@ export const productsData = [
     price: 70.99,
     quantity: 20,
     shelfNumber: "Shelf D",
-    image: "https://example.com/images/nasal-spray.jpg",
+    image: "https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/otrivin-v3/en_IN/products/Otrivin%20Oxy.png?auto=format",
     description: "Clears nasal congestion due to colds or allergies."
   },
   {
