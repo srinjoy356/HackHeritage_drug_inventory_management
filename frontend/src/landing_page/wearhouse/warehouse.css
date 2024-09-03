@@ -1,0 +1,127 @@
+.cardd {
+    text-align: left;
+    margin: 5px;
+    width: 170px;
+    height:150px;
+    background-color: #f2f3f7;
+    border-radius: 0.75em;
+    cursor: pointer;
+    transition: ease 0.2s;
+    box-shadow: 1em 1em 1em #d8dae0b1, -0.75em -0.75em 1em #ffffff;
+    border: 1.5px solid #f2f3f7;
+    padding-left: 8px;
+    
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+  }
+  .crdgrp {
+     overflow: auto;
+   
+     height: 200px;
+    display:flex;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .shelfname{
+    margin:8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    
+  }
+  .pric{
+    translate: -3px -11px;
+    padding-right: 5px;
+    align-self: flex-end;
+    font-size: 15px;
+  }
+  .qw{
+    translate:-3px -11px;
+    padding-right: 5px;
+    align-self: flex-end;
+    font-size: 15px;
+  }
+  /* From Uiverse.io by anniekoop */ 
+.cardele{
+  height: -webkit-fill-available;
+}
+
+.cardd:hover {
+  background-color: #e3e9f7;
+  border: 1.5px solid #5e9ef8;
+}
+
+.container {
+  margin-top: 1.25em;
+  margin-bottom: 1.375em;
+  margin-left: 1.375em;
+  margin-right: 2em;
+  display: flex;
+  flex-direction: row;
+  gap: 0.75em;
+}
+
+
+
+
+
+
+
+.btnview {
+  width: fit-content;
+  height: -webkit-fill-available;
+  font-size: 15px;
+  background-color: transparent;
+  font-weight: 600;
+  color: #1677ff;
+  border: transparent;
+  
+  cursor: pointer;
+}
+.btnwview{
+  width: 70px;
+
+font-size: 12px;
+
+letter-spacing: 2.5px;
+font-weight: 500;
+color: #000;
+background-color: #fff;
+border: none;
+border-radius: 45px;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+}
+
+.btnwview:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+/* width */
+.crdgrp::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+.crdgrp::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.crdgrp::-webkit-scrollbar-thumb {
+  background: #dad8d8; 
+}
+.crdgrp::-webkit-scrollbar-thumb:hover {
+  background: #696969; 
+}
+
+
