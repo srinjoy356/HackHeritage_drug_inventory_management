@@ -15,6 +15,7 @@ import {BrowserRouter , Routes , Route} from 'react-router-dom';
 import AddOrder from './landing_page/orders/AddOrder';
 import Login from './landing_page/user_login/Login';
 import Signup from './landing_page/user_login/Signup';
+import OCR from './landing_page/warehouse/OCR';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +28,7 @@ root.render(
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
     <Route path="/home" element={<Dashboard/>}></Route>
-  
+    <Route path="/OCR" element={<OCR/>}></Route>
         <Route path="/details" element={<Details/>}></Route>
     
     <Route path="/orders" element={<Orders/>}></Route>

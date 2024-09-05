@@ -118,10 +118,10 @@ console.log(drug);
           onChange={handleSearch}
           className="search-bar"
         />
-        <button className="add-product-button" onClick={handleAddProduct}>
+        <button className="add-product-but" onClick={handleAddProduct}>
           Add Product
         </button>
-        <button className="print-button" onClick={handlePrint}>
+        <button className="print-but" onClick={handlePrint}>
           Print Table
         </button>
       </div>

@@ -7,8 +7,10 @@
     padding: 20px;
     font-family: "Poppins";
   }
-  
-  .search-bar {
+  .add_pres{
+   display: flex;
+  }
+  .add_pres .search-bar {
     width: 40%;
     padding: 10px;
     margin-bottom: 20px;
@@ -16,7 +18,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
+  .pres{
+    margin-top: 10px;
+  }
   .shelf-container {
     display: flex;
     flex-direction: column;
@@ -144,4 +148,9 @@
     opacity: 1;
     pointer-events: auto;
   }
-  
+  .warehouse-head{
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 40px;
+    margin-top: 10px;
+  }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './warehouse.css'; // Import the CSS file for styling
-
+import { Link } from 'react-router-dom';
 import Sidebar from '../Sidebar';
 import { productsData } from '../../data/data'
 const Warehouse = () => {
@@ -28,7 +28,9 @@ const Warehouse = () => {
     <>
     <Sidebar/>
     <div className="dash-board">
+      <h2 className='warehouse-head'>Warehouse</h2>
     <div className="warehouse">
+    <div className='add_pres'>
       <input
         type="text"
         className="search-bar"
@@ -36,6 +38,7 @@ const Warehouse = () => {
         value={searchTerm}
         onChange={handleSearchChange}
       />
+   <div className='pres'><Link to="/OCR" className='mx-3 px-3   py-2' style={{backgroundColor:"green" , color:"white " ,textDecoration:"none" , fontWeight:"600" , borderRadius:"20px"}}>Add your Prescription</Link></div></div>
 
       <div className="shelf-container">
         {['Shelf A', 'Shelf B', 'Shelf C', 'Shelf D', 'Shelf E'].map((shelf) => (

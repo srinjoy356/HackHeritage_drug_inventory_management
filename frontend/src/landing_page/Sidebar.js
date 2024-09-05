@@ -68,7 +68,7 @@ const Sidebar = () => {
                         
                         >
                             <i className='bx bx-layer nav_logo-icon dash' style={{fontSize:"28px"}}></i>
-                            <span className="nav_logo-name">My Inventory</span>
+                            <span className="nav_logo-name"><span style={{color:"orange"}}>Niravana</span><br></br><span style={{color:"#87f167"}}>HealthChain</span></span>
                         </Link>
                         <div className="nav_list">
                             <Link
