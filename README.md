@@ -15,7 +15,7 @@ The pharmaceutical industry faces significant challenges related to drug invento
 
 - [Counterfeit Medicines](http://127.0.0.1:5500/medicine1.html)
 - [Inefficient Inventory Management](http://127.0.0.1:5500/medicine2.html)
-- [Lack of Supply Chain Transparency](http://127.0.0.1:5500/medicine3.html)
+- [Lack of Supply Chain Transparency](http://127.0.0.1:5500/medicine3.html)....
 
 
 # Solution
