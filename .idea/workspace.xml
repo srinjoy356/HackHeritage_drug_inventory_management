@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f581641b-29b7-4905-9372-24fa650abd78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/etherium/text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/data/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/Sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/category/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/home/CategorySalesChart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/home/Dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/home/Dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/home/Dashboards.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/home/Haeder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/home/Nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/home/Nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/home/Piechart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/home/ProductList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/home/details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/orders/AddOrder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/orders/AddOrder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/orders/Order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/orders/Orders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/products/AddProduct.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/products/AddProducts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/products/ProductManagement.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/products/Products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/landing_page/warehouse/Warehouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/213498-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/61-4q3mEt+L.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/64c1fcd40d532810824d07bd-equate-ultra-strength-antacid-tablets.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/656127c3cdde40275d7d928b-equate-allergy-relief-cetirizine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/81llSi8n25L._AC_UF1000,1000_QL80_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/COR0649_1_1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/OPHTHACARE-DROPS-10ML.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/PYREMUST-650-TAB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/alk0008.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/ibuprofen-400-mg-bp-tablets.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/images.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/remove-cart-icon-for-your-website-mobile-presentation-and-logo-design-free-vector.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/media/rupee-indian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.bin/loose-envify" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.bin/loose-envify.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.bin/loose-envify.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/history.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/router.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/router.cjs.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/router.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/router.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/router.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/router.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/router.umd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/router.umd.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/dist/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/history.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/router.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/@remix-run/router/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/js-tokens/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/js-tokens/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/js-tokens/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/js-tokens/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/js-tokens/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/loose-envify/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/loose-envify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/loose-envify/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/loose-envify/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/loose-envify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/loose-envify/loose-envify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/loose-envify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/loose-envify/replace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom-server.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom-server.node.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom-test-utils.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/cjs/react-dom.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/profiling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/server.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/server.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/test-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/umd/react-dom-server-legacy.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/umd/react-dom-server-legacy.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/umd/react-dom-server.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/umd/react-dom-test-utils.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/umd/react-dom.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/umd/react-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-dom/umd/react-dom.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/dom.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/react-router-dom.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/react-router-dom.development.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/react-router-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/react-router-dom.production.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/server.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/server.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/umd/react-router-dom.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/umd/react-router-dom.development.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/umd/react-router-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/dist/umd/react-router-dom.production.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/server.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router-dom/server.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/lib/components.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/lib/context.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/lib/hooks.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/react-router.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/react-router.development.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/react-router.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/react-router.production.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/umd/react-router.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/umd/react-router.development.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/umd/react-router.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/dist/umd/react-router.production.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react-router/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/cjs/react-jsx-dev-runtime.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/cjs/react-jsx-dev-runtime.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/cjs/react-jsx-dev-runtime.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/cjs/react-jsx-runtime.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/cjs/react-jsx-runtime.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/cjs/react-jsx-runtime.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/cjs/react.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/cjs/react.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/cjs/react.shared-subset.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/cjs/react.shared-subset.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/jsx-dev-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/jsx-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/react.shared-subset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/umd/react.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/umd/react.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/react/umd/react.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/cjs/scheduler-unstable_mock.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/cjs/scheduler-unstable_mock.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/cjs/scheduler-unstable_post_task.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/cjs/scheduler-unstable_post_task.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/cjs/scheduler.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/cjs/scheduler.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/umd/scheduler-unstable_mock.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/umd/scheduler-unstable_mock.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/umd/scheduler.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/umd/scheduler.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/umd/scheduler.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/unstable_mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/scheduler/unstable_post_task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/orders_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/orders_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/products_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2lhaGdPXVxk3srUyKRroY0tgYO7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.bar_code_scanner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.extractor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sql_connection.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Srinjoy Roy/OneDrive/Desktop/inventory/HackHeritage_drug_supplychain_management-master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.server">
+    <configuration name="bar_code_scanner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HackHeritage_drug_supplychain_management-master" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/bar_code_scanner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="extractor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HackHeritage_drug_supplychain_management-master" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../OCR_project" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../OCR_project/extractor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HackHeritage_drug_supplychain_management-master" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sql_connection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HackHeritage_drug_supplychain_management-master" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/sql_connection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.sql_connection" />
+        <item itemvalue="Python.bar_code_scanner" />
+        <item itemvalue="Python.extractor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f581641b-29b7-4905-9372-24fa650abd78" name="Changes" comment="" />
+      <created>1725634667416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725634667416</updated>
+    </task>
+    <servers />
+  </component>
+</project>
