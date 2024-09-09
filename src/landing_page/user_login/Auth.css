@@ -1,0 +1,110 @@
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+  }
+  .logo-container img{
+    border-radius: 50%;
+    width: 32%;
+    box-shadow: 0px 3px 30px rgba(255, 255, 255, 0.55);
+  }
+.login-bg{
+        
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50 , 0.85) 0%, rgb(0, 0, 0 , 0.85) 99.4%), url('https://png.pngtree.com/thumb_back/fh260/background/20231010/pngtree-3d-rendering-of-warehouse-inventory-stockpile-image_13575510.png') no-repeat center center fixed; /* Use a suitable background image */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .auth-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    font-family: "Poppins";
+    background: linear-gradient(180deg, rgba(188, 73, 255, 0.824) 38.6%, rgb(254, 76, 227) 85.9%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 30px rgba(255, 255, 255, 0.25);
+    color: white;
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .input-grp {
+    margin-bottom: 30px;
+  }
+  ::placeholder{
+    color: rgba(255, 255, 255, 0.454);
+  }
+  
+  .input-grp label {
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    color: white;
+  }
+  .input-grp input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  .details-user{
+    border-radius: 20px;
+
+  }
+  .input-grp input {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+   
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .input-grp input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .auth-btn {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #764ba2;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .auth-container p {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .auth-container a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  .auth-container a:hover {
+    text-decoration: none;
+  }
+  
