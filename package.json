@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -49,5 +50,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "dependencies": {
+    "react-router-dom": "^6.26.1"
+>>>>>>> 960f6167fc57f43b1af833c534670277a75b7501
   }
 }
